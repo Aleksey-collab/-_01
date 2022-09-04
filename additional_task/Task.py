@@ -1,12 +1,8 @@
 # Последовательностью Фибоначчи называется последовательность чисел a0, a1, ..., an, ..., где
 # a0 = 0, a1 = 1, ak = ak-1 + ak-2 (k > 1).
 
-from ast import While
-from tkinter import N
-
-
 fib1 = fib2 = 1
-n = input('Номер ряда Фибоначи: ')
+n = input('число Фибоначи: ')
 n = int(n) - 2
 
 while n > 0:
